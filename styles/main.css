@@ -1,0 +1,268 @@
+@import url(./reset.css);
+@import url(./fonts.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  height: 900px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin: 44px 422px 14px 467px;
+}
+
+.menu-link {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #131313;
+  text-decoration: none;
+  width: 116px;
+  height: 44px;
+  margin-right: 69px;
+}
+
+.menu-link:last-child {
+  margin-right: 0px;
+}
+
+.menu-link:hover {
+  color: #2785f7;
+}
+
+.index {
+  color: #2785f7;
+}
+
+.content {
+  width: 1404px;
+  height: 726px;
+  background: #eaebed;
+  border-radius: 30px;
+  margin: 0px 18px 44px 18px;
+  padding: 171px 1276px 135px 23px;
+  display: flex;
+}
+
+.Side {
+  width: 105px;
+  height: 420px;
+  background: #fefefe;
+  border-radius: 30px;
+  padding: 33px 19px 45px 19px;
+  display: flex;
+}
+
+.Rectangle_main1 {
+  display: flex;
+  margin: -80px 0 0 30px;
+}
+
+.Rectangle_3 {
+  width: 592px;
+  height: 130px;
+  background: #fefefe;
+  border-radius: 30px;
+  padding: 32px 42px;
+}
+
+.Rectangle_4 {
+  width: 592px;
+  height: 130px;
+  background: #fefefe;
+  border-radius: 30px;
+  padding: 32px 42px;
+}
+
+.Rectangle_3:first-child {
+  margin-right: 37px;
+}
+
+.Rectangle_5 {
+  width: 732px;
+  height: 194px;
+  padding: 34px 66px 34px 42px;
+  background: #fefefe;
+  border-radius: 30px;
+  margin: 34px 33px 22px 30px;
+}
+
+.Rectangle_6 {
+  width: 732px;
+  height: 194px;
+  margin: 22px 16.5px 72px 30px;
+  background: #fefefe;
+  border-radius: 30px;
+  display: flex;
+}
+
+.block-team {
+  margin-top: 34px;
+}
+
+.image-team {
+  width: 120px;
+  height: 138.26px;
+  margin: 28px 49px 27.74px 42px;
+}
+
+.Rectangle_main2 {
+  display: flex;
+}
+
+.Rectangle_7 {
+  width: 447px;
+  height: 410px;
+  background: #fefefe;
+  border-radius: 30px;
+  margin: 34px 34px 72px 16.5px;
+}
+
+.text-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.text-text {
+  font-family: "Open Sans regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #b1b1b1;
+}
+
+.text-text-2 {
+  font-family: "Open Sans regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 29px;
+  color: #b1b1b1;
+}
+
+.text-title-2 {
+  font-family: "Open Sans regular";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.block-data {
+  margin: 24.68px 39px 38px 42px;
+}
+
+.image-data {
+  width: 120px;
+  height: 115.32px;
+  margin: 34px 285px 12.34px 42px;
+}
+
+.uil {
+  font-size: 30px;
+  display: block;
+  margin: 15px;
+}
+
+.box {
+  height: 67px;
+  width: 67px;
+  padding: 4px;
+  margin-bottom: 8px;
+  border-radius: 15px;
+  transition: 0.5s ease width;
+  cursor: pointer;
+  position: relative;
+}
+
+.box-folder {
+  background-color: #2785f7;
+  color: #ffffff;
+}
+
+.box:hover {
+  background-color: #2785f7;
+  color: #ffffff;
+  width: 145px;
+  overflow: hidden;
+}
+
+.box::after {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  position: relative;
+  left: 55px;
+  bottom: 43px;
+}
+
+.monitor-link {
+  height: 67px;
+  width: 67px;
+  border-radius: 15px;
+  transition: 0.5s ease width;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+.monitor-link:hover {
+  background-color: #2785f7;
+  color: #ffffff;
+  width: 145px;
+  transition: 0.8s ease width;
+}
+
+.monitor-link:after {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  position: relative;
+  left: 55px;
+  bottom: 43px;
+  text-decoration: none;
+}
+
+.box-folder:hover::after {
+  content: "Project";
+}
+
+.monitor-link:hover::after {
+  content: "Account";
+}
+
+.box-users-alt:hover::after {
+  content: "Groups";
+}
+
+.box-cloud-share:hover::after {
+  content: "Cloud";
+}
+
+.box-cog:hover::after {
+  content: "Setting";
+}
